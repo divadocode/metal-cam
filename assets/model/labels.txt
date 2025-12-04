@@ -1,0 +1,5 @@
+0 Alumínio
+1 Cobre
+2 Aço Inóx
+3 Ferro
+4 Plástico

@@ -1,0 +1,51 @@
+name: reciclametal
+description: "Aplicativo de reconhecimento e reciclagem de materiais."
+publish_to: 'none' # Mantém o app privado
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 📸 Câmera (mantida, caso queira reativar no futuro)
+  camera: ^0.10.5+5
+
+  # 🧠 TensorFlow Lite
+  tflite_flutter: ^0.12.1
+
+  # 🌐 Abrir links externos
+  url_launcher: ^6.3.0
+
+  # Ícones e utilitários
+  cupertino_icons: ^1.0.8
+
+  # 📷 Manipulação de imagem
+  image: ^3.3.0
+
+  # 🧭 Gerar ícone do app
+  flutter_launcher_icons: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/splash.png
+    - assets/logo.png
+    - assets/model/model_unquant.tflite
+    - assets/model/labels.txt
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+
+
