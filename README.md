@@ -1,4 +1,4 @@
-## ReciclaMetal – Identificador e Guia de Reciclagem de Metais
+## Metalcam – Identificador e Guia de Reciclagem de Metais
 
 Aplicativo simples e intuitivo voltado para ajudar qualquer pessoa a identificar metais e aprender como descartá-los ou reutilizá-los de forma correta.
 
